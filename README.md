@@ -3,3 +3,9 @@ This is a collection of small Python scripts I have written to experiment with a
 
 # Hello-World
 This file contains small functions that I wrote simply to test aspects of Python like printing, conditionals, etc. 
+
+# Test
+Bubble sort implemented in Python
+
+# Curr-Converter
+Converts US dollars to Indian rupees, and vice versa
