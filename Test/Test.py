@@ -1,18 +1,8 @@
 def func(arr, n):
-    i = n - 1
-    while i >= 1:
-        max1 = 0
-        max2 = 0
-        for j in (1, i):
-            if arr[j] > arr[max1]:
-                max2 = max1
-                max1 = j
-            elif arr[j] > arr[max2]:
-                max2 = j
-        swap(arr, max1, i)
-        swap(arr, max2, i - 1)
-        i = i - 2
-
+    for i in range(0, n - 1):
+        for j in range(i + 1, n):
+            if arr[i] > arr[j]:
+                swap(arr, i, j)
 
 def swap(arr, i, j):
     temp = arr[i]
